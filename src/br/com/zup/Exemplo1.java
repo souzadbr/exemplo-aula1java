@@ -13,9 +13,11 @@ public class Exemplo1 {
         System.out.print(nomeDoUsuario);
         System.out.println(" e minha idade é ");
         System.out.print(idadeDoUsuario);
-        System.out.print (" anos");
+        System.out.println (" anos");
 
+//Printando concatenando as variáveis
 
+        System.out.print ( "Olá, meu nome é " + nomeDoUsuario + " e minha idade é " + idadeDoUsuario);
 
     }
 }
