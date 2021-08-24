@@ -10,6 +10,16 @@ public class Aula1_Exemplo2 {
        int resultadoDaSoma = numero1 + numero2;
        //Criando a operação de subtração
         int resultadoDaSubtração = numero1 - numero2;
+        //Criando a operação de multiplicação
+        int resultadoDaMultiplicacao = numero1 * numero2;
+        //Criando a operação de divisão
+        int resultadoDaDivisao = numero1 / numero2;
+
+        //Exibindo a operação de divisão para o usuário
+        System.out.println("O resultado da divisão é " + resultadoDaDivisao);
+
+        //Exibindo a operação de multiplicação para o usuário
+        System.out.println("O resultado da multiplicação é " + resultadoDaMultiplicacao);
 
        // Exibindo a operação de soma para o usuário
        System.out.println("O resultado da soma é "+ resultadoDaSoma );
