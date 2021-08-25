@@ -2,6 +2,7 @@ package br.com.zup;
 
 public class Aula1_Exercicio2 {
     public static void main(String[] args) {
+
       int notaAluno1 = 3;
       int notaAluno2 = 5;
       int notaAluno3 = 10;
