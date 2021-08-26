@@ -9,14 +9,15 @@ public class Aula3_Exercicio4_Lista2 {
         System.out.println("Vou te ajudar a organizar os aumentos de salário por faixa salarial:" );
         System.out.println("Digite o salário do funcionário que receberá aumento: ");
         double salarioFuncionario = leitor.nextDouble();
-        double salarioMaisAumentos20 = (salarioFuncionario*0.2)+salarioFuncionario;
-        double salarioMaisAumento15 = (salarioFuncionario*0.15)+salarioFuncionario;
-        double salarioMaisAumento10 = (salarioFuncionario*0.1)+salarioFuncionario;
-        double salarioMaisAumento5 = (salarioFuncionario*0.05)+salarioFuncionario;
         double percentual5 = salarioFuncionario*0.05;
         double percentual10 = salarioFuncionario*0.1;
         double percentual15 = salarioFuncionario*0.15;
         double percentual20 = salarioFuncionario*0.2;
+        double salarioMaisAumentos20 = (percentual20)+salarioFuncionario;
+        double salarioMaisAumento15 = (percentual15)+salarioFuncionario;
+        double salarioMaisAumento10 = (percentual10)+salarioFuncionario;
+        double salarioMaisAumento5 = (percentual5)+salarioFuncionario;
+
 
 
         if (salarioFuncionario>=0 & salarioFuncionario<=280){
