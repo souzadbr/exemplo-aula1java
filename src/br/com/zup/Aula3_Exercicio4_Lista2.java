@@ -24,7 +24,7 @@ public class Aula3_Exercicio4_Lista2 {
             System.out.println("Seu salario atual é "+salarioFuncionario + " e vai receber 20% de aumento que equivale a "+ percentual20+ " reais, portanto salario atual é "+ salarioMaisAumentos20 );
         }
         else if (salarioFuncionario > 280 & salarioFuncionario<=700){
-        System.out.println("Seu salario atual é "+salarioFuncionario + " e vai receber 15% de aumento que equivale a " +percentual5+ " reais,portanto salario atual é " + salarioMaisAumento15);
+        System.out.println("Seu salario atual é "+salarioFuncionario + " e vai receber 15% de aumento que equivale a " +percentual15+ " reais,portanto salario atual é " + salarioMaisAumento15);
         }
         else if (salarioFuncionario>700 & salarioFuncionario<=1500){
             System.out.println("Seu salario atual é "+salarioFuncionario + " e vai receber 10% de aumento que equivale a " + percentual10+" reais, portanto salario atual é " + salarioMaisAumento10);

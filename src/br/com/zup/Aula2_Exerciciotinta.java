@@ -2,7 +2,7 @@ package br.com.zup;
 
 public class Aula2_Exerciciotinta {
     public static void main(String[] args) {
-        double tamanhoEmMetros = 360;
+        double tamanhoEmMetros = 500;
         double coberturaTintaPorLitro =  6;
         double lataTintaLitro = 18;
         double galaoTintaLitro = 3.6;
@@ -23,22 +23,22 @@ public class Aula2_Exerciciotinta {
         System.out.println("A quantidade de tinta a se comprar para " + tamanhoEmMetros + " metro é " + quantaTintaComprar + " Litros");
 
         quantidadeDeLatas = quantaTintaComprar / lataTintaLitro;
-        System.out.println("A quantidade de latas de tinta de 18L necessarias são ");
+        System.out.println("A quantidade de latas de tinta de 18L necessarias sem 10% de folga são ");
         System.out.print (Math.ceil(quantidadeDeLatas));
         System.out.println("Latas");
 
         quantidadeDeGalao = quantaTintaComprar / galaoTintaLitro;
-        System.out.println("A quantidade de galão de tinta de 3,6 litros necessários são ");
+        System.out.println("A quantidade de galão de tinta de 3,6 litros necessários sem 10% de folga são ");
         System.out.print(Math.ceil(quantidadeDeGalao));
         System.out.println(" Galões");
 
-        //Adicionando 10% na quantidade de tinta necessaria para 360 Litros
+        //Adicionando 10% na quantidade de tinta necessaria
 
         quantidadeDeTintaAComprasMaisFolga = ( tamanhoEmMetros / coberturaTintaPorLitro) * folgaTinta;
         System.out.println("Quantidade de tinta necessaria +10% é " + quantidadeDeTintaAComprasMaisFolga);
 
         quantidadeComFolga = quantidadeDeTintaAComprasMaisFolga + quantaTintaComprar;
-        System.out.println("Quantidade de tinta a compras mais 10% é " + quantidadeComFolga);
+        System.out.println("Quantidade de tinta a compra mais 10% é " + quantidadeComFolga);
 
 
         quantidadeDeLatas = quantidadeComFolga / lataTintaLitro;
