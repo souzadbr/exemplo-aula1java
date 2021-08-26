@@ -13,18 +13,23 @@ public class Aula3_Exercicio4_Lista2 {
         double salarioMaisAumento15 = (salarioFuncionario*0.15)+salarioFuncionario;
         double salarioMaisAumento10 = (salarioFuncionario*0.1)+salarioFuncionario;
         double salarioMaisAumento5 = (salarioFuncionario*0.05)+salarioFuncionario;
+        double percentual5 = salarioFuncionario*0.05;
+        double percentual10 = salarioFuncionario*0.1;
+        double percentual15 = salarioFuncionario*0.15;
+        double percentual20 = salarioFuncionario*0.2;
+
 
         if (salarioFuncionario>=0 & salarioFuncionario<=280){
-            System.out.println("receber 20% de aumento, portanto salario atual é "+ salarioMaisAumentos20 );
+            System.out.println("Seu salario atual é "+salarioFuncionario + " e vai receber 20% de aumento que equivale a "+ percentual20+ " reais, portanto salario atual é "+ salarioMaisAumentos20 );
         }
         else if (salarioFuncionario > 280 & salarioFuncionario<=700){
-            System.out.println("receber 15% de aumento, portanto salario atual é " + salarioMaisAumento15);
+        System.out.println("Seu salario atual é "+salarioFuncionario + " e vai receber 15% de aumento que equivale a " +percentual5+ " reais,portanto salario atual é " + salarioMaisAumento15);
         }
         else if (salarioFuncionario>700 & salarioFuncionario<=1500){
-            System.out.println("receber 10% de aumento, portanto salario atual é " + salarioMaisAumento10);
+            System.out.println("Seu salario atual é "+salarioFuncionario + " e vai receber 10% de aumento que equivale a " + percentual10+" reais, portanto salario atual é " + salarioMaisAumento10);
         }
         else if (salarioFuncionario >1500){
-            System.out.println("receber 5% de aumento, portanto salario atual é " + salarioMaisAumento5);
+            System.out.println("Seu salario atual é "+salarioFuncionario + " e vai receber 5% de aumento que equivale a " + percentual5+ " reais, portanto salario atual é " + salarioMaisAumento5);
         }
     }
 
