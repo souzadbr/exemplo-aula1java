@@ -13,12 +13,12 @@ public class Aula2_ComparaçãoDeDados3 {
         if (notaDoAluno < 6) {
             System.out.println("Você foi reprovado com a nota:"+ notaDoAluno);
         }
-         if (notaDoAluno >= 6 & notaDoAluno <10) {
+        else if (notaDoAluno >= 6 & notaDoAluno <10) {
             System.out.println("Você foi aprovado com a nota:"+ notaDoAluno);
         }
-        if (notaDoAluno == 10) {
+        else if (notaDoAluno == 10) {
             System.out.println("Você foi aprovado com distinção!!");
-        } else {
+        } else  {
             System.out.println("Digite uma nota valida!");
         }
     }
