@@ -20,7 +20,7 @@ public class Aula3_Exercicio4_Lista2 {
 
 
 
-        if (salarioFuncionario>=0 & salarioFuncionario<=280){
+        if (salarioFuncionario> 0 & salarioFuncionario<=280){
             System.out.println("Seu salario atual é "+salarioFuncionario + " e vai receber 20% de aumento que equivale a "+ percentual20+ " reais, portanto salario atual é "+ salarioMaisAumentos20 );
         }
         else if (salarioFuncionario > 280 & salarioFuncionario<=700){
