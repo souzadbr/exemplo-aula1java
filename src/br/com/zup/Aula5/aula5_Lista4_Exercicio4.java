@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class aula5_Lista4_Exercicio4 {
     public static void main(String[] args) {
-        /*
-
-         */
 
         Scanner leitor = new Scanner(System.in);
         double quantidadeDeNumeros;
