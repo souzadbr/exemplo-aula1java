@@ -6,8 +6,7 @@ public class Aula6_ExercicioLevelUp_ListaComplementar {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-        int contador = 0;
-        double numImpares = 0;
+
         double soma = 0;
 
         System.out.println("Digite o inicio do seu intervalo:");
