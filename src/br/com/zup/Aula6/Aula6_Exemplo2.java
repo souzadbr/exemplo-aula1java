@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula6;
 
 import java.util.ArrayList;
 import java.util.List;
