@@ -7,25 +7,25 @@ public class Aula6_Exercicio1_Extra {
 
         Scanner leitor = new Scanner(System.in);
         System.out.println("Vamos te ajudar a descobrir se o número inserido é um número primo!");
-        System.out.println("Digite quantidade de numeros a serem vertificados: ");
-        double quantidadeDeNumerosVerificar = leitor.nextDouble();
 
-        int quantidadeDividores = 0;
+        int primo = 0;
         int contador = 1;
-        double numeroInseridoUsuario = 0;
+        int numeroInseridoUsuario = 1;
 
-        while (contador <=numeroInseridoUsuario){
+        System.out.println("digite o numero a ser verificado se é primo:");
+        numeroInseridoUsuario = leitor.nextInt();
 
-            System.out.println("Digite o número aqui: ");
-            numeroInseridoUsuario = leitor.nextDouble();
-
-            if(quantidadeDividores == numeroInseridoUsuario | quantidadeDividores == 1){
-                System.out.println("Esse número é primo");
-            }else {
-                System.out.println("Esse numero não é primo");
+        for ( contador = 1; contador<=numeroInseridoUsuario; contador++) {
+            if (numeroInseridoUsuario % contador == 0) {
+                primo++;
             }
-            contador ++;
         }
+        if (primo == 2) {
+            System.out.println("O número " + numeroInseridoUsuario + " é PRIMO!");
+        }else {
+            System.out.println("Esse número não é primo!");
+        }
+
 
 
 

@@ -2,7 +2,7 @@ package br.com.zup.Aula6;
 
 import java.util.Scanner;
 
-public class Aula6_ExercicioExtra2 {
+public class Aula6_Exercicio2_Extra {
     public static void main(String[] args) {
         /*
         2. Faça um programa que calcule e mostre a soma dos 50 primeiros números ímpares.
