@@ -15,23 +15,28 @@ public class Aula7_Exercicio1 {
         int quantidadeDeProdutos = 3;
 
 
-        while (contador <=quantidadeDeProdutos){
-            System.out.println("Digite o valor do produto "+contador+" :");
+        while (contador <= quantidadeDeProdutos) {
+            System.out.println("Digite o valor do produto " + contador + " :");
             valorProduto = leitor.nextDouble();
-            if(contador == 1){
-               produtoMaisBarato =  valorProduto ;
-                produtoMaisCaro = valorProduto ;
+            if (contador == 1) {
+                produtoMaisBarato = valorProduto;
+                produtoMaisCaro = valorProduto;
 
-            }  if (valorProduto>=produtoMaisBarato){
-                valorProduto = produtoMaisCaro;
+            } else {
 
-            } if (valorProduto<=produtoMaisCaro) {
-                valorProduto = produtoMaisBarato;
+                if (valorProduto <= produtoMaisBarato) {
+                    produtoMaisBarato = valorProduto;
+                }
+                if (valorProduto >= produtoMaisCaro) {
+                    produtoMaisCaro = valorProduto;
+                }
             }
 
             contador++;
 
         }
-        System.out.println("Esse é o produto mais barato com valor de " +produtoMaisBarato);
+
+        System.out.println("Esse é o produto mais barato com valor de " + produtoMaisBarato);
+        System.out.println(produtoMaisCaro);
     }
 }

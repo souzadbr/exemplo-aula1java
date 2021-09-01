@@ -15,20 +15,18 @@ public class Aula6_Exercicio1_Extra {
         System.out.println("digite o numero a ser verificado se é primo:");
         numeroInseridoUsuario = leitor.nextInt();
 
-        for ( contador = 1; contador<=numeroInseridoUsuario; contador++) {
+        for (contador = 1; contador <= numeroInseridoUsuario; contador++) {
             if (numeroInseridoUsuario % contador == 0) {
                 primo++;
             }
         }
         if (primo == 2) {
             System.out.println("O número " + numeroInseridoUsuario + " é PRIMO!");
-        }else {
+        } else {
             System.out.println("Esse número não é primo!");
         }
 
 
-
-
-                }
     }
+}
 
