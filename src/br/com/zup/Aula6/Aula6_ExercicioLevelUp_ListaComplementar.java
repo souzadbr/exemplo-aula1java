@@ -6,7 +6,6 @@ public class Aula6_ExercicioLevelUp_ListaComplementar {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-
         double soma = 0;
 
         System.out.println("Digite o inicio do seu intervalo:");
@@ -15,8 +14,10 @@ public class Aula6_ExercicioLevelUp_ListaComplementar {
         double fimIntervalo = leitor.nextDouble();
         if (inicioIntervalo > fimIntervalo) {
             System.out.println("Intervalo de valores inválidos, digite novamente");
+        }else {
+            System.out.println("O internvalo é "+inicioIntervalo +" até "+fimIntervalo);
         }
-        System.out.println("O internvalo é "+inicioIntervalo +" até "+fimIntervalo);
+
 
         while (inicioIntervalo < fimIntervalo) {
 
