@@ -3,7 +3,7 @@ package br.com.zup.Aula7;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Aula7_Exerplo3 {
+public class Aula7_Exemplo3 {
     public static void main(String[] args) {
         //Criando estrutura HashMap
 
