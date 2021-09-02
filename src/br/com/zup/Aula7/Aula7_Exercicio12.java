@@ -19,19 +19,19 @@ public class Aula7_Exercicio12 {
         System.out.println("Programa lê 5 números inteiros e mostra soma, multiplicação e os números.");
 
         while (contador <= quantidadeNumeros) {
-            System.out.println("Digite o número "+contador+":");
+            System.out.println("Digite o número " + contador + ":");
             numerosInseridos = leitor.nextInt();
 
-            if(numerosInseridos>=0){
+            if (numerosInseridos >= 0) {
                 numeros.add(numerosInseridos);
                 System.out.println(numeros);
                 soma = soma + numerosInseridos;
-                multiplicacao = multiplicacao*numerosInseridos;
-                contador ++;
+                multiplicacao = multiplicacao * numerosInseridos;
+                contador++;
             }
         }
-        System.out.println("A lista de números inseridos é "+numeros);
-        System.out.println("A soma dos números é "+soma);
-        System.out.println("A multiplicação dos números é "+multiplicacao);
+        System.out.println("A lista de números inseridos é " + numeros);
+        System.out.println("A soma dos números é " + soma);
+        System.out.println("A multiplicação dos números é " + multiplicacao);
     }
 }
