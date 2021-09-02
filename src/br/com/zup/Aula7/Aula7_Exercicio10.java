@@ -22,13 +22,14 @@ public class Aula7_Exercicio10 {
 
             if(notasInserida>=0){
                 notas.add(notasInserida);
-                System.out.println(notas);
+
                 contador++;
                soma = soma + notasInserida;
 
             }
 
         }
+        System.out.println("A lista de notas é " + notas);
         System.out.println("A soma das 4 notas é "+soma);
         System.out.println("A média das notas inseridas é "+soma/quantidadeNotas);
     }
