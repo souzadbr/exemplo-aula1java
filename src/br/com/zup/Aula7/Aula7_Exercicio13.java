@@ -10,7 +10,7 @@ public class Aula7_Exercicio13 {
         double multa = 4;
         double pesoInserido = 0;
         double excessoPeso = 0;
-        double valorAPagar = 0;
+
 
 
         System.out.println("Essa balança vai te indicar o quanto de kg passou do peso regulamentos 50kg e o valor da multa a se pagar por Kg excedente!");
