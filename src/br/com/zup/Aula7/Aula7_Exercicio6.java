@@ -7,16 +7,16 @@ public class Aula7_Exercicio6 {
         int fim = 49;
 
 
-        while (inicio<=fim){
-            if(inicio%2!=0) {
+        while (inicio <= fim) {
+            if (inicio % 2 != 0) {
                 System.out.println(inicio);
                 inicio++;
-            }else {
+            } else {
                 inicio++;
             }
 
-            }
         }
-
     }
+
+}
 

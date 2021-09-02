@@ -12,18 +12,18 @@ public class Aula7_Exercicio5 {
         int contador = 1;
         int maiorValor = 0;
 
-        while (contador<=quantidadeDeNumeroInseridos){
-            System.out.println("Digite o número"+ contador +":");
+        while (contador <= quantidadeDeNumeroInseridos) {
+            System.out.println("Digite o número" + contador + ":");
             numeroInseridoUsuario = leitor.nextInt();
 
-            if (maiorValor<numeroInseridoUsuario){
+            if (maiorValor < numeroInseridoUsuario) {
                 maiorValor = numeroInseridoUsuario;
             }
-            System.out.println("O maior numero é "+maiorValor);
-            contador ++;
+            System.out.println("O maior numero é " + maiorValor);
+            contador++;
 
         }
-        System.out.println("O maior numero é "+maiorValor);
+        System.out.println("O maior numero é " + maiorValor);
     }
 
 }

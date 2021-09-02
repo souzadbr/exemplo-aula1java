@@ -4,22 +4,32 @@ import java.util.Scanner;
 
 public class Aula7_Exercicio7 {
     public static void main(String[] args) {
-        Scanner leitor = new Scanner (System.in);
+        Scanner leitor = new Scanner(System.in);
+        int inicioIntervalo = 0;
+        int fimIntervalo = 0;
+        int referencia = 0;
+
+
         System.out.println("Esse programa vai te ajudar a imprimir os valores dentro de um intervalo!");
         System.out.println("Digite o inicio do intervalo aqui:");
-        int inicioIntervalor = leitor.nextInt();
+        inicioIntervalo = leitor.nextInt();
         System.out.println("Digite o fim do intervalo aqui:");
-        int fimIntervalo = leitor.nextInt();
+        fimIntervalo = leitor.nextInt();
 
-        if(inicioIntervalor>fimIntervalo & fimIntervalo>inicioIntervalor){
+
+        if (inicioIntervalo > fimIntervalo) {
             System.out.println("Intervalo inválido tente novamente. Inicio deve ser maior que o fim do intervalo");
-        }else{
-            System.out.println("O intervalo é "+inicioIntervalor+"até "+fimIntervalo);
         }
 
 
-      for (inicioIntervalor= 1; inicioIntervalor<fimIntervalo; inicioIntervalor++)
-          System.out.println(inicioIntervalor);
+        for (referencia = inicioIntervalo; inicioIntervalo < fimIntervalo; inicioIntervalo++) {
+            if (referencia == inicioIntervalo) {
+                inicioIntervalo = inicioIntervalo + 1;
+
+            }
+            System.out.println(inicioIntervalo);
         }
+
     }
 
+}
